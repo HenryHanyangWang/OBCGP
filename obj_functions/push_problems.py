@@ -123,7 +123,7 @@ class push4:
                 x[i, :], self.t1_x, self.t1_y, self.o1_x, self.o1_y, plotting_args
             )
 
-        return torch.tensor(val.ravel())     # I changed it back to Nov-15 version.
+        return -torch.tensor(val.ravel())    
 
 
 class push8:
