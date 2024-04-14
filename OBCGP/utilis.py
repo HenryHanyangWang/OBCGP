@@ -25,7 +25,7 @@ class obj_fun:
 
 
 
-def get_initial_points_normal(bounds,num,device,dtype,seed=0):
+def get_initial_points(bounds,num,device,dtype,seed=0):
     
         train_x = draw_sobol_samples(
         bounds=bounds, n=num, q=1,seed=seed).reshape(num,-1).to(device, dtype=dtype)
