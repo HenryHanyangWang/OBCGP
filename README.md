@@ -1,1 +1,1 @@
-This is a readme, I will put information here.
+This is the code for the paper Objective Bound Conditional Gaussian Process for Bayesian Optimization. Their original code is available at https://github.com/twj-KAIST/OBCGP-BO. However, their code does not have any version information and their code seems to use tensorflow 0.x and gpflow 0.x, which is no longer available in pip. Therefore, we make some ajustments in their code to make it run in tensorflow 1.x and gpflow 1.x.
